@@ -1,0 +1,24 @@
+{
+  "name": "nodeplayer-plugin-ipfilter",
+  "version": "0.1.95",
+  "description": "Provides IP filtering for configurable expressjs paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FruitieX/nodeplayer-plugin-ipfilter.git"
+  },
+  "author": "FruitieX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FruitieX/nodeplayer-plugin-ipfilter/issues"
+  },
+  "homepage": "https://github.com/FruitieX/nodeplayer-plugin-ipfilter",
+  "dependencies": {
+    "express-ipfilter": "0.0.19",
+    "nodeplayer-config": "*",
+    "underscore": "^1.8.2"
+  }
+}
