@@ -11,8 +11,8 @@ var defaultConfig = require('./default-config.js');
 var config = nodeplayerConfig.getConfig(MODULE_NAME, defaultConfig);
 
 exports.init = function(player, logger, callback) {
-    if (!player.app) {
-        callback('module must be initialized after expressjs module!');
+    if (!player.plugins['plugin-express']) {
+        callback('module must be initialized after express module!');
     } else {
         // TODO: separate config file for plugins?
         var checkIP = filter(config.filterStreamIPs, {
