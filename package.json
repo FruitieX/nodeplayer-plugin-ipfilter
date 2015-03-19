@@ -1,6 +1,6 @@
 {
   "name": "nodeplayer-plugin-ipfilter",
-  "version": "0.1.96",
+  "version": "0.1.97",
   "description": "Provides IP filtering for configurable expressjs paths",
   "main": "index.js",
   "scripts": {
