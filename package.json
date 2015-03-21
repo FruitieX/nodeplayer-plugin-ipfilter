@@ -1,6 +1,6 @@
 {
   "name": "nodeplayer-plugin-ipfilter",
-  "version": "0.1.97",
+  "version": "0.1.99",
   "description": "Provides IP filtering for configurable expressjs paths",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,6 @@
   "homepage": "https://github.com/FruitieX/nodeplayer-plugin-ipfilter",
   "dependencies": {
     "express-ipfilter": "0.0.19",
-    "nodeplayer-config": "*",
     "underscore": "^1.8.2"
   }
 }
