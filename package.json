@@ -18,6 +18,7 @@
   "homepage": "https://github.com/FruitieX/nodeplayer-plugin-ipfilter",
   "dependencies": {
     "express-ipfilter": "0.0.19",
+    "nodeplayer": "*",
     "underscore": "^1.8.2"
   }
 }
